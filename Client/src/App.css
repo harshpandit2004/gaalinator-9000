@@ -1,0 +1,124 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.App {
+  text-align: center;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.head {
+  font-family: "Poiret One", cursive;
+  color: black;
+  background-color: #ffffff75;
+  padding: 2rem;
+  border-radius: 2rem;
+}
+
+.recommendationGuy {
+  margin: 2rem;
+  padding: 1rem 2rem;
+  width: 25%;
+  height: fit-content;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: #b4b4b4;
+  background-color: #353535;
+  border: none;
+  border-radius: 2rem;
+  box-shadow: 0px 0px 10px #000000dd;
+  transition: all 1s ease 0s;
+  cursor: pointer;
+  outline: none;
+  margin: 2rem;
+}
+
+.recommendationGuy:hover {
+  background-color: #353535;
+  box-shadow: 0px 0px 50px #1c1c1c;
+  color: #fff;
+
+  padding: 1rem 2.15rem;
+  margin: 2rem 1.85rem;
+}
+.indexes {
+  color: #000;
+}
+.headlayer {
+  background-image: url("./background.gif");
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: stretch;
+}
+.indexlayer {
+  background-image: url("./background.gif");
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-content: space-around;
+  justify-content: space-between;
+  align-items: stretch;
+}
+.content-index {
+  transition: all 0.3s ease 0s;
+  transition-delay: 2s;
+  background-color: #353535;
+  box-shadow: 0px 0px 500px #656565;
+  color: #ffffff;
+  width: 50%;
+  padding: 2rem 0rem;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 4rem;
+  display: flex;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Queued {
+  transition: all 0.3s ease 0s;
+  transition-delay: 2s;
+  background-color: #353535;
+  box-shadow: 0px 0px 500px #656565;
+  color: #ffffff;
+  width: 50%;
+  padding: 2rem 0rem;
+  margin-left: 25%;
+  margin-right: 25%;
+  border-radius: 4rem;
+  display: flex;
+  align-content: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
